@@ -262,6 +262,13 @@
       .visita-foto .legenda .rot{font-size:.68rem;letter-spacing:.28em;text-transform:uppercase;color:var(--greige)}
       .visita-acoes{display:flex;flex-wrap:wrap;gap:.9rem;margin-top:1.6rem}
       .visita-acoes .btn-claro{color:var(--off)}
+      /* Visite sobre fundo preto: contatos em tons claros (a logo segue no cartão branco) */
+      #visita .contatos li{border-top-color:rgba(241,241,231,.16)}
+      #visita .contatos li:last-child{border-bottom-color:rgba(241,241,231,.16)}
+      #visita .contatos a:hover{background:rgba(241,241,231,.05)}
+      #visita .contatos .ic{border-color:rgba(241,241,231,.3);background:#0B0B0B;color:var(--bordo-vivo)}
+      #visita .contatos .rot{color:var(--off)}
+      #visita .contatos .val{color:var(--off)}
 
       /* ---------- Rodapé ---------- */
       footer{background:#030303;color:var(--off);border-top:1px solid rgba(241,241,231,.09)}
@@ -579,7 +586,7 @@
         </section>
 
         <!-- ===== VISITE A LOJA ===== -->
-        <section class="secao-clara" id="visita">
+        <section class="secao-escura" id="visita">
           <div class="envoltorio">
             <div class="cabecalho-secao rv">
               <p class="sobrelinha">Visite-nos</p>
